@@ -1,8 +1,8 @@
-@-moz-viewport { width: device-width; scale: 1 }
-@-ms-viewport { width: device-width; scale: 1 }
-@-o-viewport { width: device-width; scale: 1 }
-@-webkit-viewport { width: device-width; scale: 1 }
-@viewport { width: device-width; scale: 1 }
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
   -moz-text-size-adjust: 100%;
@@ -61,13 +61,13 @@ body {
   }
 
   .card-body {
-  display: inline-block;
-  width: 20rem;
-  padding: .4em 0 0 .4em;
+    display: inline-block;
+    width: 20rem;
+    padding: .4em 0 0 .4em;
   }
 }
 
-@media only screen and (min-wdith: 38em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
@@ -76,7 +76,7 @@ body {
 
   .card {
     display: inline-block;
-    max-width: 32%
+    max-width: 32%;
   }
 
   .card-body {
